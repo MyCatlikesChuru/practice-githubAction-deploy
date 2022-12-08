@@ -1,4 +1,4 @@
-package com.codestates.controller;
+package com.codestates.practicegithubActiondeploy.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @GetMapping("/")
-    public String getHello(){
+    public String hello(){
         return "Hello World! Hello BE BootCamp";
     }
 }
